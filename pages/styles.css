@@ -35,7 +35,7 @@ body {
     gap: 64px;
 }
 
-.header {    
+.header {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -119,7 +119,7 @@ textarea {
 
 
 .prompt-box:focus {
-    border-color:rgba(255, 255, 255, 0.75)
+    border-color: rgba(255, 255, 255, 0.75)
 }
 
 
@@ -321,7 +321,7 @@ textarea {
 }
 
 .output-content p {
-    text-align: center;
+    text-align: left;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -372,7 +372,8 @@ textarea {
         text-align: center;
     }
 
-    .key-stroke, .or {
+    .key-stroke,
+    .or {
         display: none;
     }
 
@@ -392,7 +393,7 @@ textarea {
 
 
 
- /* Loading ring animation */
+/* Loading ring animation */
 .loader {
     width: 18px;
     height: 18px;
